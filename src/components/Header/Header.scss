@@ -1,0 +1,60 @@
+// top header
+#ss_top_header {
+  width: 100%;
+  height: 56px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+  background-color: #1c1c1c;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  .ss_logo_item {
+    height: 56px;
+    color: #fff;
+  }
+  .ss_logo {
+    width: auto;
+    height: 35px;
+    padding-left: 52px;
+  }
+  .header_height {
+    height: 56px;
+  }
+  .user_name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    border-right: 1px solid #fff;
+  }
+  .user_name::first-letter {
+    text-transform: capitalize;
+  }
+
+  .border_btm {
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  #userMenu {
+    .icon_list {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      i {
+        font-size: 22px;
+        vertical-align: middle;
+      }
+      span {
+        vertical-align: middle;
+        padding-left: 4px;
+      }
+    }
+
+    ul li:hover {
+      background: #f5eae0;
+      color: var(--ss_primary_color);
+    }
+    // ul li:nth-child(2n + 1) {
+    //   border-bottom: 1px solid #d9d9d9;
+    // }
+  }
+}

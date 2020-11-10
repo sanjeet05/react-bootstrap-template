@@ -1,0 +1,4 @@
+SKIP_PREFLIGHT_CHECK=true
+#cdn_url
+REACT_APP_SS_CDN_URL='https://assets.streamspace.me'
+

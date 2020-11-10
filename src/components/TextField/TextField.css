@@ -1,0 +1,9 @@
+.ss_input {
+    /* background-color: #e5e5e5 !important; */
+    border: solid 1px #b1b1b1;
+}
+
+.ss_input:focus {
+    /* background-color: #e5e5e5 !important; */
+    border: solid 1px #b1b1b1;
+}

@@ -1,0 +1,182 @@
+// signin
+#signin {
+  .card_height {
+    min-height: 630px;
+    height: 100%;
+  }
+
+  .border_rt {
+    border-right: 2px solid #f0f0f0;
+  }
+  .right_heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #212121;
+  }
+  .checkbok_text {
+    color: #999999;
+  }
+  .account {
+    font-size: 14px;
+    color: #777777;
+  }
+  .heading_text_1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.48;
+    color: #000000;
+  }
+  .border_bottom {
+    position: relative;
+    padding-bottom: 8px;
+    display: inline-block;
+  }
+  .border_bottom::after {
+    content: "";
+    position: absolute;
+    background-color: var(--ss_border_btm_clr);
+    height: 2px;
+    bottom: 0;
+    left: 0px;
+    max-width: 150px;
+    width: 100%;
+  }
+  .email_verify {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.48;
+    color: #000000;
+  }
+  .mfa_box {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06);
+    border: solid 1px #d9d9d9;
+    background-color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    i {
+      font-size: 32px;
+    }
+    .text_1 {
+      font-size: 14px;
+      color: #212121;
+    }
+    .text_2 {
+      font-size: 14px;
+      font-weight: 300;
+      color: #636363;
+    }
+  }
+  .mfa_box:hover {
+    border: solid 1px var(--ss_text_clr);
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.06);
+    i {
+      color: var(--ss_text_clr);
+    }
+    i::before {
+      color: var(--ss_text_clr);
+    }
+    .text_1 {
+      color: var(--ss_text_clr);
+    }
+  }
+  .qr_image {
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06);
+    border: solid 1px var(--ss_primary_color_2);
+    display: inline-block;
+    padding: 2px;
+    img {
+      width: 130px;
+    }
+  }
+  .qr_code {
+    border-radius: 4px;
+    border: solid 1px #c2c2c2;
+    background-color: #f6f6f6;
+    font-size: 14px;
+    color: #212121;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    width: 100%;
+    max-width: 400px;
+    span {
+      float: right;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+  }
+
+  .access_code{
+    font-size: 14px;
+    // vertical-align: middle;
+    a{
+      color: var(--ss_primary_color_2);
+      text-decoration: none;
+    }
+  }
+
+  .t_and_c_text {
+    font-size: 13px;
+    color: #777777;
+    span {
+      color: var(--ss_primary_color_2);
+    }
+  }
+}
+
+.auth_modal_content {
+  padding-left: 20%;
+  padding-right: 20%;
+  .footer_text {
+    font-size: 14px;
+    line-height: 1.48;
+    color: #636363;
+  }
+  .footer_link {
+    padding-left: 5px;
+    color: var(--ss_primary_color_2);
+    text-decoration: underline;
+  }
+  .otp_signin {
+    justify-content: center;
+  }
+  .resend_code_text {
+    font-size: 14px;
+    color: var(--ss_btn_clr);
+    cursor: pointer;
+  }
+  .resend_code_text_inactive {
+    font-size: 14px;
+  }
+  .resend_code_timer {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+
+.modal_header {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+    url("https://cdn.stream.space/images/Hive_Logo.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 70px auto;
+  height: 80px;
+  align-items: center;
+}
+
+.phone_form {
+  position: relative;
+  .react-tel-input {
+    .ss_phone {
+      height: 46px !important;
+    }
+  }
+  .sms_timer {
+    position: absolute;
+    right: 48%;
+    font-weight: 700;
+  }
+}
