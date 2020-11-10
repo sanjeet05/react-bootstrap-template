@@ -1,5 +1,12 @@
 **[View Live Preview](https://vigorous-ramanujan-9408f9.netlify.app/)**
 
+```sh
+Credentials:
+
+Email: admin@test.com
+Pass: admin@123
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
